@@ -48,6 +48,14 @@ async function searchImages() {
   }
 }
 
+let a = 12;
+
+if (a > 34) {
+  console.log("a is big")
+} else {
+  console.log("a is small")
+}
+
 formEl.addEventListener("submit", (event) => {
   event.preventDefault();
   page = 1;
