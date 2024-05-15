@@ -1,5 +1,4 @@
 
-//this is api branch
 const accesskey = "tB3nwMzPTXd8_5Entu3L12RVID2NkmAK5krcu101Mqs";
 
 const formEl = document.querySelector("form");
@@ -22,6 +21,8 @@ async function searchImages() {
   if (page === 1) {
     searchResults.innerHTML = "";
   }
+
+
 
   results.forEach((result) => {
     const imageWrapper = document.createElement("div");
@@ -56,3 +57,7 @@ formEl.addEventListener("submit", (event) => {
 showMore.addEventListener("click", () => {
   searchImages();
 });
+
+
+// this is my api branch
+//this is also
