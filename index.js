@@ -26,13 +26,13 @@ async function searchImages() {
     imageWrapper.classList.add("search-result");
 
     const image = document.createElement("img");
-    image.src = result.urls.small; 
-    image.alt = result.alt_description; 
+    image.src = result.urls.small;
+    image.alt = result.alt_description;
 
     const imageLink = document.createElement("a");
     imageLink.href = result.links.html;
     imageLink.target = "_blank";
-    imageLink.textContent = result.alt_description; 
+    imageLink.textContent = result.alt_description;
 
     imageWrapper.appendChild(image);
     imageWrapper.appendChild(imageLink);
@@ -43,6 +43,14 @@ async function searchImages() {
   if (page > 1) {
     showMore.style.display = "block";
   }
+}
+
+let a = 12;
+
+if (a > 34) {
+  console.log("a is big")
+} else {
+  console.log("a is small")
 }
 
 formEl.addEventListener("submit", (event) => {
