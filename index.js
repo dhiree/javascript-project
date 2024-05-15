@@ -1,3 +1,5 @@
+
+//this is api branch
 const accesskey = "tB3nwMzPTXd8_5Entu3L12RVID2NkmAK5krcu101Mqs";
 
 const formEl = document.querySelector("form");
@@ -26,13 +28,13 @@ async function searchImages() {
     imageWrapper.classList.add("search-result");
 
     const image = document.createElement("img");
-    image.src = result.urls.small; 
-    image.alt = result.alt_description; 
+    image.src = result.urls.small;
+    image.alt = result.alt_description;
 
     const imageLink = document.createElement("a");
     imageLink.href = result.links.html;
     imageLink.target = "_blank";
-    imageLink.textContent = result.alt_description; 
+    imageLink.textContent = result.alt_description;
 
     imageWrapper.appendChild(image);
     imageWrapper.appendChild(imageLink);
