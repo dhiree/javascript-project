@@ -1,7 +1,8 @@
 
 //this is api branch
 const accesskey = "tB3nwMzPTXd8_5Entu3L12RVID2NkmAK5krcu101Mqs";
-
+// this is my feature branch
+// merge into the main branch
 const formEl = document.querySelector("form");
 const inputEl = document.getElementById("search-input");
 const searchResults = document.querySelector(".search-results");
